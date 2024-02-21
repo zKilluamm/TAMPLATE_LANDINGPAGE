@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rebeccapurple ;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    color: white;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+h1{
+    font-weight: 200px;
+}
+.logo {
+    
+    line-height: 20px;
+}
+li{
+    display: inline-block   ;
+    margin: 20px;
+    color: antiquewhite;
+}
+li:hover{
+    color: antiquewhite;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    justify-content: space-between;
+    
+}
+h2{
+    font-size: 44px;
+    
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-top: 20px;
+}
+.carlos{
+    width: 500px;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+aside h2{
+    margin-bottom: 2px;
+}
+aside p{
+    margin-top: 30px;
+    
+}
+aside form{
+    margin-top: 26px;
+}
+aside input{
+    margin-bottom: 10px;
+    width: auto;
+    height: 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+article{
+    display: flex;
+    align-items: center ;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 220px;
+    color: aliceblue;
+}
+footer p {
+    color: antiquewhite;
+}
+footer a {
+    text-decoration: none;
+    color: aliceblue;
+}
+footer a:hover {
+    text-decoration: none;
+    color: gray;
+}
+aside input:hover{
+    margin-bottom: 10px;
+    width: auto;
+    height: 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    background-color: antiquewhite;
+    transition-duration: 100ms;
+}
